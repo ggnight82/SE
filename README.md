@@ -15,3 +15,6 @@ This project is maintained by teamWYXZ:
 - Yasmin
 - Xanthe
 - Zack
+## Contact Info
+
+For info on this project, please contact [Xanthe](mailto:xanthe@example.com).
