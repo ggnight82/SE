@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -16,14 +17,17 @@
   </head>
   <body>
     <h1>magicSquareJS</h1>
-    <section>
-      <input type="text" placeholder="Size"/>
-      <a href="#">Generate Magic Square</a>
-      <pre>
+    <section class="box">
+      <input type="text" id="magic-square-size" class="flex-item" placeholder="Size"/>
+      <a href="#" id="magic-square-generate-button" class="flex-item btn" >Generate Magic Square</a>
+      <pre class="flex-item" id="magic-square-display">
       </pre>
-      <div id="validation"></div>
+      <div id="validation" class="flex-item" ></div>
     </section>
 
+    <script src="js/magic_square/utils.js"></script>
+    <script src="js/magic_square/square.js"></script>
+    <script src="js/magic_square/validator.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
